@@ -537,14 +537,25 @@ footer {
     border: 1px solid var(--border-color);
 }
 
-.social-link:hover {
+.social-link.linkedin:hover {
     transform: translateY(-5px);
-    background: linear-gradient(to right, var(--primary), var(--secondary));
+    background: #0077b5;
     color: white;
 }
 
 .social-link.whatsapp:hover {
+    transform: translateY(-5px);
     background: #25D366;
+}
+
+.social-link.github:hover {
+    transform: translateY(-5px);
+    background: #07070c;
+}
+
+.social-link.instagram:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(45deg,#405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d);
 }
 
 .copyright {
@@ -655,3 +666,4 @@ footer {
         font-size: 1.1rem;
     }
 }
+
