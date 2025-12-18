@@ -457,10 +457,6 @@ a {
     transition: color 0.3s;
 }
 
-a {
-    color: var(--secondary);
-}
-
 .strengths-experience-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -678,6 +674,7 @@ footer {
         font-size: 1.1rem;
     }
 }
+
 
 
 
