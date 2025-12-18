@@ -459,7 +459,6 @@ a {
 
 a {
     color: var(--secondary);
-    transform: translateY(1.3rem);
 }
 
 .strengths-experience-container {
@@ -679,5 +678,6 @@ footer {
         font-size: 1.1rem;
     }
 }
+
 
 
