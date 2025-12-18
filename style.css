@@ -449,6 +449,19 @@ section {
     margin-bottom: 15px;
 }
 
+a {
+    text-align: center;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+a {
+    color: var(--secondary);
+    transform: translateY(1.3rem);
+}
+
 .strengths-experience-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -666,4 +679,5 @@ footer {
         font-size: 1.1rem;
     }
 }
+
 
