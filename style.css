@@ -456,11 +456,14 @@ section {
     padding:2px;
 }
 
+<<<<<<< HEAD
 .certs:hover {
     color: var(--secondary);
     transform:translateY(-5px);
 }
 
+=======
+>>>>>>> 37865308b14981b7ff0fab71c046d1ab84a8a22f
 .strengths-experience-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -678,5 +681,7 @@ footer {
         font-size: 1.1rem;
     }
 }
+
+
 
 
