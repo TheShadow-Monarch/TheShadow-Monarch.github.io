@@ -211,11 +211,7 @@ nav {
     color: var(--secondary);
 }
 
-.hero-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
+
 
 .profile-container {
     width: 300px;
@@ -449,17 +445,20 @@ section {
     margin-bottom: 15px;
 }
 
-a {
+.certs {
     text-align: center;
+    justify-content: center;
     color: var(--primary);
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s;
+    display: inline;
+    padding:2px;
 }
 
-a {
+.certs:hover {
     color: var(--secondary);
-    transform: translateY(1.3rem);
+    transform:translateY(-5px);
 }
 
 .strengths-experience-container {
