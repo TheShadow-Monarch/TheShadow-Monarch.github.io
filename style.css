@@ -167,6 +167,8 @@ nav {
 .btn-outline:hover {
     background-color: rgba(0, 217, 255, 0.1);
     transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 217, 255, 0.2);
+
 }
 
 .whatsapp-btn {
