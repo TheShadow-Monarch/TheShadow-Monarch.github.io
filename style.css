@@ -410,13 +410,13 @@ section {
     transform: translateY(-3px);
 }
 
-.certifications-container {
+.certifications-container, .project-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
 }
 
-.cert-card {
+.cert-card, .project-card {
     background-color: var(--card-bg);
     padding: 30px;
     border-radius: 10px;
@@ -425,29 +425,29 @@ section {
     transition: transform 0.3s;
 }
 
-.cert-card:hover {
+.cert-card:hover, .project-card:hover {
     transform: translateY(-10px);
 }
 
-.cert-card h3 {
+.cert-card h3, .project-card h3 {
     font-size: 1.3rem;
     margin-bottom: 10px;
     color: var(--primary);
 }
 
-.cert-card .provider {
+.cert-card .provider, .project-card .provider {
     color: var(--secondary);
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.cert-card .date {
+.cert-card .date, .project-card .date {
     color: var(--text-muted);
     font-size: 0.9rem;
     margin-bottom: 15px;
 }
 
-.certs {
+.certs, .project-link {
     text-align: center;
     justify-content: center;
     color: var(--primary);
@@ -458,7 +458,7 @@ section {
     padding:2px;
 }
 
-.certs:hover {
+.certs:hover, .project-link:hover {
     color: var(--secondary);
     transform:translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 217, 255, 0.2);
